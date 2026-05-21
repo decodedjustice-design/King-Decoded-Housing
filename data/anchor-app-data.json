@@ -1,0 +1,150 @@
+{
+  "source": {
+    "name": "Anchor v3 Unified with Maps.xlsx",
+    "path": "C:/Users/Administrator/OneDrive/downloads/Anchor v3 Unified with Maps.xlsx",
+    "importedAt": "2026-05-20T15:13:00"
+  },
+  "summary": {
+    "sheets": 37,
+    "properties": 489,
+    "resources": 1756
+  },
+  "sheets": [
+    { "name": "All Family Rentals", "headerRow": 4, "rows": 233, "columns": 53, "type": "property" },
+    { "name": "All Programs", "headerRow": 4, "rows": 459, "columns": 51, "type": "resource" },
+    { "name": "Same Day Resources", "headerRow": 4, "rows": 25, "columns": 10, "type": "resource" },
+    { "name": "Property_Data_for_Map", "headerRow": 5, "rows": 15, "columns": 13, "type": "property" }
+  ],
+  "properties": [
+    {
+      "id": "ARCH-BE-0004",
+      "name": "30 Bellevue",
+      "sourceSheet": "All Family Rentals",
+      "sourceRow": 8,
+      "organization": null,
+      "city": "Bellevue",
+      "county": "King",
+      "address": "3030 Bellevue Way",
+      "zip": "98004",
+      "latitude": null,
+      "longitude": null,
+      "programType": "ARCH/MFTE",
+      "amiLevels": "30%, 40%, 50%",
+      "rent": { "studio": null, "oneBedroom": null, "twoBedroom": null, "threeBedroom": null, "fourBedroom": null },
+      "units": { "affordable": null, "twoBedroom": 15, "threeBedroom": 10, "available": null },
+      "waitlistStatus": null,
+      "acceptingApplications": null,
+      "voucherAccepted": "Check",
+      "section8Accepted": null,
+      "hcvTypesAccepted": null,
+      "populationServed": "Family / Special Needs / Homeless",
+      "amenities": { "pets": null, "parking": null, "laundry": null, "transit": null },
+      "contact": { "phone": null, "email": null, "website": null, "applicationUrl": null },
+      "lastVerified": null,
+      "navigatorScore": null,
+      "tags": ["Family Friendly", "MFTE", "ARCH"],
+      "approvalLikelihood": "Unknown",
+      "searchText": "30 Bellevue Bellevue Family / Special Needs / Homeless ARCH/MFTE"
+    },
+    {
+      "id": "ARCH-BE-0013",
+      "name": "Andrew's Glen",
+      "sourceSheet": "All Family Rentals",
+      "sourceRow": 7,
+      "city": "Bellevue",
+      "county": "King",
+      "address": "4228 Factoria Blvd",
+      "zip": "98006",
+      "latitude": null,
+      "longitude": null,
+      "programType": "ARCH/MFTE",
+      "amiLevels": "50%",
+      "rent": { "studio": null, "oneBedroom": null, "twoBedroom": null, "threeBedroom": null, "fourBedroom": null },
+      "units": { "affordable": null, "twoBedroom": null, "threeBedroom": null, "available": null },
+      "waitlistStatus": null,
+      "voucherAccepted": "Yes",
+      "section8Accepted": "Yes",
+      "populationServed": "Family",
+      "amenities": { "pets": null, "parking": null, "laundry": null, "transit": null },
+      "contact": { "phone": null, "email": null, "website": null, "applicationUrl": null },
+      "lastVerified": null,
+      "navigatorScore": null,
+      "tags": ["Voucher Friendly", "Family Friendly", "MFTE", "ARCH"],
+      "approvalLikelihood": "Possible",
+      "searchText": "Andrew's Glen Bellevue Family ARCH/MFTE voucher"
+    }
+  ],
+  "resources": [
+    {
+      "id": "same-day-resources-211-crisis-connections-5",
+      "name": "211 Crisis Connections",
+      "organization": null,
+      "programName": "211 Crisis Connections",
+      "sourceSheet": "Same Day Resources",
+      "category": "System Access",
+      "county": "King",
+      "city": null,
+      "address": "Statewide",
+      "zip": null,
+      "phone": "211",
+      "website": "https://wa211.org",
+      "applicationUrl": null,
+      "eligibility": "All",
+      "populationServed": "All",
+      "housingType": null,
+      "waitlistStatus": null,
+      "referralRequired": null,
+      "rentRange": null,
+      "voucherAccepted": null,
+      "criminalBackground": null,
+      "evictionPolicy": null,
+      "hours": "M-F 8am-6pm",
+      "notes": "CRITICAL FIRST STEP. 240+ languages. 1,500+ agencies.",
+      "lastVerified": "2026-05-12",
+      "latitude": null,
+      "longitude": null,
+      "flags": { "familyFriendly": false, "youthFriendly": false, "veteranFriendly": false, "dvFriendly": false, "adaAccessible": false, "petFriendly": false, "vehicleResident": false, "sameDay": true, "lowBarrier": true, "walkIn": false, "felonyFriendly": false },
+      "searchText": "211 Crisis Connections System Access All housing shelter rent utility assistance"
+    },
+    {
+      "id": "same-day-resources-family-shelter-intake-6",
+      "name": "Family Shelter Intake (Mary's Place)",
+      "programName": "Family Shelter Intake (Mary's Place)",
+      "sourceSheet": "Same Day Resources",
+      "category": "Emergency Shelter",
+      "county": "King",
+      "city": "Seattle",
+      "address": "Call daily 7-9am",
+      "phone": "206-245-1026",
+      "website": null,
+      "eligibility": "Families with children",
+      "populationServed": "Families w/ children",
+      "hours": "Daily 7am-8:30pm",
+      "notes": "Call daily starting at 7-9am. Shelter offered same-day if available.",
+      "lastVerified": "2026-05-12",
+      "latitude": null,
+      "longitude": null,
+      "flags": { "familyFriendly": true, "youthFriendly": false, "veteranFriendly": false, "dvFriendly": false, "adaAccessible": false, "petFriendly": false, "vehicleResident": false, "sameDay": true, "lowBarrier": true, "walkIn": false, "felonyFriendly": false },
+      "searchText": "Family Shelter Intake Mary's Place Emergency Shelter Families children same day"
+    }
+  ],
+  "triageIndex": {
+    "emergencySurvival": [
+      { "id": "same-day-resources-211-crisis-connections-5", "name": "211 Crisis Connections", "category": "System Access", "phone": "211", "city": null, "notes": "Critical first step." },
+      { "id": "same-day-resources-family-shelter-intake-6", "name": "Family Shelter Intake (Mary's Place)", "category": "Emergency Shelter", "phone": "206-245-1026", "city": "Seattle", "notes": "Call daily 7-9am." }
+    ],
+    "familiesWithChildren": [
+      { "id": "same-day-resources-family-shelter-intake-6", "name": "Family Shelter Intake (Mary's Place)", "category": "Emergency Shelter", "phone": "206-245-1026", "city": "Seattle", "notes": "Call daily 7-9am." }
+    ],
+    "vehicleLiving": [],
+    "domesticViolence": [],
+    "youth": [],
+    "veterans": [],
+    "lowBarrier": [
+      { "id": "same-day-resources-211-crisis-connections-5", "name": "211 Crisis Connections", "category": "System Access", "phone": "211", "city": null, "notes": "Critical first step." }
+    ],
+    "voucherSearch": [
+      { "id": "ARCH-BE-0013", "name": "Andrew's Glen", "city": "Bellevue", "voucherAccepted": "Yes", "waitlistStatus": null, "approvalLikelihood": "Possible" }
+    ]
+  }
+}
